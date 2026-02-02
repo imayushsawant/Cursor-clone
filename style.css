@@ -126,21 +126,17 @@ a {
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    gap: 0;
     padding: 20px;
-    justify-content: center;
 }
 .logo-box{
     display: flex;
-    height: 80px;
     background-color: #F2F1ED;
+    height: 80px;
     align-items: center;
     justify-content: center;
     margin: 5px;
-    padding: 30px;
     border-radius: 6px;
 }
 .logo-box img{
     max-width: 56px;
-    width: auto;
 }
