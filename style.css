@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button {
+
+    background-color: blue;
+    box-shadow: none;
+    appearance: none;
+    -webkit-appearance: none;
+      background: none;
+
+  box-shadow: none;
+}
+
+body {
+    background-color: #F7F7F4;
+    font-family: Inter;
+}
+main {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+header {
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+.centerNav{
+    margin-bottom: 2px;
+    padding-bottom: 0px;
+}
+
+.centerNav a{
+    gap: 20px;
+    color: black;
+    padding: 10px;
+    font-size:11px;
+}
+.centerNav a:hover{
+    color: #5A5953;
+}
+.Logo img{
+    width:80px ;
+    height: auto;
+
+}
+.Logo{
+    padding-right: 70px;
+}
+#SignIn{
+    background-color: #F7F7F4;
+    border-radius: 15px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0.5px solid #CDCAC6 ;
+    height: 22px;
+    font-size: 12px;
+}
+#Download{
+    background-color: #26251E;
+    color: #F7F7F4;
+    border-radius: 15px;
+    border-width: 1px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 22px;
+    font-size: 12px;
+}
+#Download:hover{
+    background-color:#3B3A33 ;
+}
+#SignIn:hover{
+    background-color: #F2F1ED;
+}
+.bar{
+    margin-bottom: 100px;
+}
+.Download2 button{
+    background-color: #26251E;
+    color: #F7F7F4;
+    border-radius: 110px;
+    border-width: 1px;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 35px;
+    font-size: 12px;
+    margin-bottom: 40px;
+    
+}
+.Download2 button:hover{
+    background-color:#3B3A33 ;
+}
+
+.introtext h2{
+    font-weight: normal ;
+    font-size:20px;
+    word-spacing: -2px;
+    margin-bottom: 20px;
+}
+.Interractiveimage1 img{
+    width: 1050px;
+    border-radius: 4px;
+    margin-bottom: 70px;
+}
+
+.textabovegrid{
+    text-align: center;
+    font-size: 12px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    gap: 0;
+    padding: 20px;
+    justify-content: center;
+}
+.logo-box{
+    display: flex;
+    height: 80px;
+    background-color: #F2F1ED;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 30px;
+    border-radius: 6px;
+}
+.logo-box img{
+    max-width: 56px;
+    width: auto;
+}
