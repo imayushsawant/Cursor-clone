@@ -3,27 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 button {
 
     background-color: blue;
     box-shadow: none;
     appearance: none;
     -webkit-appearance: none;
-      background: none;
+    background: none;
 
-  box-shadow: none;
+    box-shadow: none;
 }
 
 body {
     background-color: #F7F7F4;
     font-family: Inter;
 }
+
 main {
-  max-width: 1120px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 35px;
-  padding-right: 35px;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 header {
@@ -38,39 +40,45 @@ nav {
 a {
     text-decoration: none;
 }
-.centerNav{
+
+.centerNav {
     margin-bottom: 2px;
     padding-bottom: 0px;
 }
 
-.centerNav a{
+.centerNav a {
     gap: 20px;
     color: black;
     padding: 10px;
-    font-size:11px;
+    font-size: 11px;
 }
-.centerNav a:hover{
+
+.centerNav a:hover {
     color: #5A5953;
 }
-.Logo img{
-    width:80px ;
+
+.Logo img {
+    width: 80px;
     height: auto;
 
 }
-.Logo{
+
+.Logo {
     padding-right: 70px;
 }
-#SignIn{
+
+#SignIn {
     background-color: #F7F7F4;
     border-radius: 15px;
     padding: 4px;
     padding-left: 10px;
     padding-right: 10px;
-    border: 0.5px solid #CDCAC6 ;
+    border: 0.5px solid #CDCAC6;
     height: 22px;
     font-size: 12px;
 }
-#Download{
+
+#Download {
     background-color: #26251E;
     color: #F7F7F4;
     border-radius: 15px;
@@ -81,16 +89,20 @@ a {
     height: 22px;
     font-size: 12px;
 }
-#Download:hover{
-    background-color:#3B3A33 ;
+
+#Download:hover {
+    background-color: #3B3A33;
 }
-#SignIn:hover{
+
+#SignIn:hover {
     background-color: #F2F1ED;
 }
-.bar{
+
+.bar {
     margin-bottom: 100px;
 }
-.Download2 button{
+
+.Download2 button {
     background-color: #26251E;
     color: #F7F7F4;
     border-radius: 110px;
@@ -101,34 +113,38 @@ a {
     height: 35px;
     font-size: 12px;
     margin-bottom: 40px;
-    
-}
-.Download2 button:hover{
-    background-color:#3B3A33 ;
+
 }
 
-.introtext h2{
-    font-weight: normal ;
-    font-size:20px;
+.Download2 button:hover {
+    background-color: #3B3A33;
+}
+
+.introtext h2 {
+    font-weight: normal;
+    font-size: 20px;
     word-spacing: -2px;
     margin-bottom: 20px;
 }
-.Interractiveimage1 img{
+
+.Interractiveimage1 img {
     width: 1050px;
     border-radius: 4px;
     margin-bottom: 70px;
 }
 
-.textabovegrid{
+.textabovegrid {
     text-align: center;
     font-size: 12px;
 }
-.grid{
+
+.grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     padding: 20px;
 }
-.logo-box{
+
+.logo-box {
     display: flex;
     background-color: #F2F1ED;
     height: 80px;
@@ -138,23 +154,117 @@ a {
     border-radius: 6px;
     margin-bottom: 60px;
 }
-.logo-box img{
+
+.logo-box img {
     max-width: 56px;
 }
 
 .hero1 {
-    background-color:#F2F1ED ;
+    background-color: #F2F1ED;
     border-radius: 5px;
     padding: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 80px;
 }
 
-.interractiveimage2 img{
+.interractiveimage2 img {
     width: 700px;
-    margin-left: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-right: 0%;
+}
+
+.textofhero1 p {
+    font-size: medium;
+}
+
+#textafterboldtexthero1 {
+    color: #787771;
+    margin-bottom: 20px;
+}
+
+#agentlink {
+    color: #f54e00;
+    font-size: small;
+}
+
+#agentlink:hover {
+    color: #F47657;
+}
+
+.hero2 {
+    background-color: #F2F1ED;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+.interractiveimage3 img {
+    width: 700px;
+    margin-right: 20px;
     border-radius: 5px;
 }
 
+.textofhero2 p {
+    font-size: medium;
+}
 
+#textafterboldtexthero2 {
+    color: #787771;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+#tablink {
+    color: #f54e00;
+    font-size: small;
+}
+
+#tablink:hover {
+    color: #F47657;
+}
+
+.hero3 {
+    background-color: #F2F1ED;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.interractiveimage4 img {
+    width: 700px;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-right: 0%;
+}
+
+.textofhero3 p {
+    font-size: medium;
+    width: 300px; 
+}
+
+#textafterboldtexthero3 {
+    color: #787771;
+    margin-bottom: 20px;
+}
+
+#ecosystemlink {
+    color: #f54e00;
+    font-size: small;
+}
+
+#ecosystemlink:hover {
+    color: #F47657;
+}
+.nowrap {
+  white-space: nowrap;
+}
