@@ -136,7 +136,25 @@ a {
     justify-content: center;
     margin: 5px;
     border-radius: 6px;
+    margin-bottom: 60px;
 }
 .logo-box img{
     max-width: 56px;
 }
+
+.hero1 {
+    background-color:#F2F1ED ;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.interractiveimage2 img{
+    width: 700px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+
