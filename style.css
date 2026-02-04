@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+/* html{
+    font-size: 18px;
+} */
+
 button {
 
     background-color: blue;
@@ -50,7 +54,7 @@ a {
     gap: 20px;
     color: black;
     padding: 10px;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .centerNav a:hover {
@@ -75,7 +79,7 @@ a {
     padding-right: 10px;
     border: 0.5px solid #CDCAC6;
     height: 22px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #Download {
@@ -87,7 +91,7 @@ a {
     padding-left: 10px;
     padding-right: 10px;
     height: 22px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #Download:hover {
@@ -111,7 +115,7 @@ a {
     padding-left: 20px;
     padding-right: 20px;
     height: 35px;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 40px;
 
 }
@@ -122,20 +126,20 @@ a {
 
 .introtext h2 {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 22px;
     word-spacing: -2px;
     margin-bottom: 20px;
 }
 
 .Interractiveimage1 img {
-    width: 1050px;
+    width: 1210px;
     border-radius: 4px;
     margin-bottom: 70px;
 }
 
 .textabovegrid {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .grid {
@@ -177,7 +181,7 @@ a {
 }
 
 .textofhero1 p {
-    font-size: medium;
+    font-size: large;
 }
 
 #textafterboldtexthero1 {
@@ -187,7 +191,7 @@ a {
 
 #agentlink {
     color: #f54e00;
-    font-size: small;
+    font-size: medium;
 }
 
 #agentlink:hover {
@@ -212,7 +216,7 @@ a {
 }
 
 .textofhero2 p {
-    font-size: medium;
+    font-size: large;
 }
 
 #textafterboldtexthero2 {
@@ -223,7 +227,7 @@ a {
 
 #tablink {
     color: #f54e00;
-    font-size: small;
+    font-size: medium;
 }
 
 #tablink:hover {
@@ -249,7 +253,7 @@ a {
 }
 
 .textofhero3 p {
-    font-size: medium;
+    font-size: large;
     width: 300px; 
 }
 
@@ -260,7 +264,7 @@ a {
 
 #ecosystemlink {
     color: #f54e00;
-    font-size: small;
+    font-size: medium;
 }
 
 #ecosystemlink:hover {
@@ -273,7 +277,7 @@ a {
 #gridheading{
     text-align: center;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 32px;
     word-spacing: -2px;
     margin: 50px;
 }
@@ -296,7 +300,7 @@ a {
 }
 
 .cardtext{
-    font-size: small;
+    font-size: medium;
     color: #26251E;
 }
 .grid1, .grid2, .grid3, .grid4, .grid5, .grid6 {
@@ -321,15 +325,15 @@ a {
 #grid1name {
   margin: 0;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
 
 }
 
 #grid1about {
     margin: 0;
-    font-size: 0.85rem;
+    font-size: 15px;
     color: #787771;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
@@ -351,13 +355,13 @@ a {
 #grid2name {
   margin: 0;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #grid2about {
   margin: 0;
   color: #787771;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 
@@ -379,12 +383,12 @@ a {
 #grid3name {
   margin: 0;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #grid3about {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   color: #787771;
 }
 
@@ -407,12 +411,12 @@ a {
 #grid4name {
   margin: 0;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #grid4about {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   color: #787771;
 }
 
@@ -435,12 +439,12 @@ a {
 #grid5name {
   margin: 0;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #grid5about {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   color: #787771;
 }
 
@@ -464,12 +468,12 @@ a {
 #grid6name {
   margin: 0;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #grid6about {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   color: #787771;
 }
 
@@ -477,7 +481,7 @@ a {
     text-align: left;
     margin-bottom: 20px;
     font-weight: normal;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .gridB{
@@ -509,16 +513,16 @@ a {
 
 .gridB_text{
     color: #787771;
-    font-size: small;
+    font-size: medium;
 }
 #gridB_textbold{
-    font-size: small;
+    font-size: medium;
 }
 
 
 .gridBLink{
     color: #f54e00;
-    font-size: small;
+    font-size: medium;
 }
 .gridBLink:hover{
     color: #F47657;
@@ -546,6 +550,10 @@ footer{
     margin-right: 30px ;
 }
 
+.column{
+    margin-left: 40px;
+}
+
 .footergridContainer{
     width: 1280px;
     padding: 35px;
@@ -563,7 +571,7 @@ footer{
     display: flex;
     justify-content: flex-start;
     gap: 10px;
-    font-size: smaller;
+    font-size: small;
     margin-bottom: 40px;
     color: #787771;
 
@@ -575,13 +583,17 @@ ul{
 }
 .column a{
     color:#26253E ;
-    font-size: smaller;
+    font-size: small;
 }
 
 .column h4{
     color: #787771;
     font-weight: normal;
-    font-size: smaller;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.column li{
+    margin-bottom: 10px;
 }
 #Security:hover{
     color: #787771;
