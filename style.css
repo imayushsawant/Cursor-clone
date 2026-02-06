@@ -530,11 +530,10 @@ a {
 
 .gridB img{
     border-radius: 5px;
+    width: 320px;
+
 }
 
-#frontierimg3{
-    width: 250px;
-}
 
 footer{
   background-color: #F2F1ED;  
